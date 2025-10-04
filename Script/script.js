@@ -1,6 +1,3 @@
-const prompt = require('prompt-sync')();
-
-
 function valorInvalido(peso, altura) {
     return isNaN(peso) || isNaN(altura) || peso < 0 || altura < 0;
 }
