@@ -1,23 +1,20 @@
-
 body {
-    background-color: #cac9c9;
+    background-color: #e7ecef;
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
 
 .calculadora {
-    max-width: 500px;
+    max-width: 800px;
     margin: 50px auto;
     background-color: #f9fafb;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.calculadora h1,
-.calculadora h2,
-.calculadora p,
+
 .calculadora span {
     margin-bottom: 10px;
 }
@@ -26,30 +23,97 @@ body {
     width: 50%;
     padding: 10px;
     margin-top: 5px;
+    margin-left: 30px;
     font-size: 16px;
     box-sizing: border-box;
+    border-radius: 10px;
+    border: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#peso {
+    margin-left: 67.9px;
 }
 
 .calculadora button {
-    
+
     margin-top: 20px;
+    font-weight: bold;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #003ad8;
-    color: white;
+    background-color: #780000;
+    color: rgb(246, 245, 245);
     border: none;
     border-radius: 5px;
     align-items: center;
-    
+
 }
 
 .calculadora button:hover {
-    background-color: #d72e0c;
+    background-color: #8b8c89;
 }
 
 #resultado {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
+}
+
+table {
+    
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 60%;
+    max-width: 600px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.tabela-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+th {
+    background-color: #274c77;
+    color: white;
+    font-size: 1.1em;
+}
+
+th,
+td {
+    padding: 14px 18px;
+}
+
+tbody tr:hover {
+    background-color: #a3cef1;
+    transition: 0.3s;
+}
+
+.destaque {
+  background-color: #6096ba; 
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.info-imc {
+    margin-bottom: 20px;
+    color: #333;
+    line-height: 1.5;
+    font-size: 0.95em;
+    text-align: justify;
+}
+.info-imc strong {
+    color: #274c77; 
 }
