@@ -37,6 +37,16 @@ Este é um **site de Calculadora de IMC (Índice de Massa Corporal)** desenvolvi
 
 ---
 
+## 🎬 Demonstração Visual
+
+Aqui você pode ver como a tabela se destaca conforme o IMC calculado:
+(![Demonstração da Calculadora de IMC](assets/demo.gif)
+
+
+> O GIF mostra o usuário inserindo peso e altura e a linha correspondente sendo destacada na tabela.
+
+---
+
 ## 🚀 Como Usar
 
 1. Clone ou baixe o repositório:
