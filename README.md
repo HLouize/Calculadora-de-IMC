@@ -42,3 +42,8 @@ Este é um **site de Calculadora de IMC (Índice de Massa Corporal)** desenvolvi
 1. Clone ou baixe o repositório:
    ```bash
    git clone https://github.com/SEU-USUARIO/calculadora-imc.git
+2.Abra o arquivo index.html no navegador.
+
+3.Insira seu peso (kg) e altura (m).
+
+4.Clique em "Calcular" para ver a faixa de IMC destacada na tabela.
