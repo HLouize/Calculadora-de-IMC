@@ -5,17 +5,6 @@ Este é um **site de Calculadora de IMC (Índice de Massa Corporal)** desenvolvi
 
 ---
 
-## 🌟 Funcionalidades
-
-- Entrada de **peso** (kg) e **altura** (m).  
-- Validação de dados (não permite valores negativos ou inválidos).  
-- Cálculo automático do IMC com clique no botão **"Calcular"**.  
-- Destaque da **linha correta da tabela** de acordo com o IMC do usuário.  
-- Mensagem explicativa sobre o IMC, incluindo aviso:  
-  **"O IMC não substitui uma avaliação médica completa."**  
-- Interface moderna, responsiva e com efeitos visuais.
-
----
 
 ## 📊 Faixas de IMC
 
@@ -40,21 +29,14 @@ Aqui você pode ver como a tabela se destaca conforme o IMC calculado:
 
 ---
 
-## 💻 Tecnologias Utilizadas
-
-- **HTML5** – Estrutura do site.  
-- **CSS3** – Estilização moderna e efeitos de destaque.  
-- **JavaScript** – Validação de dados, cálculo do IMC e destaque da linha correta.
-
----
 
 ## 🚀 Como Usar
 
 1. Clone ou baixe o repositório:
    ```bash
    git clone https://github.com/SEU-USUARIO/calculadora-imc.git
-Abra o arquivo index.html no navegador.
+2.Abra o arquivo index.html no navegador.
 
-Insira seu peso (kg) e altura (m).
+3.Insira seu peso (kg) e altura (m).
 
-Clique em "Calcular" e veja a linha correta da tabela destacada.
+4.Clique em "Calcular" e veja a linha correta da tabela destacada.
