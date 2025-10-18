@@ -4,7 +4,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
 .calculadora {
     max-width: 800px;
     margin: 50px auto;
@@ -14,40 +13,37 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-
 .calculadora span {
-    margin-bottom: 10px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
 }
 
 .calculadora input {
-    width: 50%;
-    padding: 10px;
+    width: 100%;
+    padding: 12px;
     margin-top: 5px;
-    margin-left: 30px;
+    margin-bottom: 20px;
     font-size: 16px;
     box-sizing: border-box;
-    border-radius: 10px;
-    border: 100px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-#peso {
-    margin-left: 67.9px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .calculadora button {
-
-    margin-top: 20px;
+    width: 100%;
+    margin-top: 10px;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 14px;
     font-size: 16px;
     cursor: pointer;
     background-color: #780000;
-    color: rgb(246, 245, 245);
+    color: #fff;
     border: none;
-    border-radius: 5px;
-    align-items: center;
-
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
 }
 
 .calculadora button:hover {
@@ -58,28 +54,20 @@ body {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
+    color: #274c77;
+    text-align: center;
 }
 
 table {
-    
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 0 auto;
     border-collapse: collapse;
-    width: 60%;
+    width: 100%;
     max-width: 600px;
     background-color: white;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     border-radius: 12px;
     overflow: hidden;
     text-align: center;
-    margin-top: 10px;
-
-}
-
-.tabela-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
 }
 
 th {
@@ -88,8 +76,7 @@ th {
     font-size: 1.1em;
 }
 
-th,
-td {
+th, td {
     padding: 14px 18px;
 }
 
@@ -99,13 +86,11 @@ tbody tr:hover {
 }
 
 .destaque {
-  background-color: #6096ba; 
-  color: white;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
+    background-color: #6096ba;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
-
-
 
 .info-imc {
     margin-bottom: 20px;
@@ -114,6 +99,34 @@ tbody tr:hover {
     font-size: 0.95em;
     text-align: justify;
 }
+
 .info-imc strong {
-    color: #274c77; 
+    color: #274c77;
+}
+
+@media (max-width: 600px) {
+    .calculadora {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .calculadora input,
+    .calculadora button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    .info-imc {
+        font-size: 0.9em;
+        text-align: left;
+    }
 }
