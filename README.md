@@ -32,11 +32,8 @@ Aqui você pode ver como a tabela se destaca conforme o IMC calculado:
 
 ## 🚀 Como Usar
 
-1. Clone ou baixe o repositório:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/calculadora-imc.git
-2.Abra o arquivo index.html no navegador.
+1.Acesse https://hlouize.github.io/Calculadora-de-IMC/ 
 
-3.Insira seu peso (kg) e altura (m).
+2.Insira seu peso (kg) e altura (m).
 
-4.Clique em "Calcular" e veja a linha correta da tabela destacada.
+3.Clique em "Calcular" e veja a linha correta da tabela destacada.
