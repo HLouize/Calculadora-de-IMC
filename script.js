@@ -11,7 +11,7 @@ document.getElementById("calcular").addEventListener("click", function () {
     return;
   }
 
-  const imc = peso / (altura * altura);
+  const imc = (peso / (altura * altura))*10000;
 
   const linhas = document.querySelectorAll("table tbody tr");
   linhas.forEach(linha => linha.classList.remove("destaque"));
