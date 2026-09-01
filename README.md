@@ -34,6 +34,6 @@ Aqui você pode ver como a tabela se destaca conforme o IMC calculado:
 
 1.Acesse https://hlouize.github.io/Calculadora-de-IMC/ 
 
-2.Insira seu peso (kg) e altura (m).
+2.Insira seu peso (kg) e altura (cm).
 
 3.Clique em "Calcular" e veja a linha correta da tabela destacada.
